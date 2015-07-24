@@ -14,7 +14,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-// TEST TO SEE IF VCS WORKS
+// TEST TO SEE IF VCS WORKS and if new file transfers
+
 
 /**
  * Created by Joshua on 7/15/2015.
