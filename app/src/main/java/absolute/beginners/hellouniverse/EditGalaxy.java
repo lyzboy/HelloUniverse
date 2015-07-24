@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 
 // TEST TO SEE IF VCS WORKS and if new file transfers
+// Test to see if VCS works from tablet to pc
 
 
 /**
