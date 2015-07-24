@@ -40,6 +40,8 @@ public class EditGalaxy extends ActionBarActivity {
 
                 //toast used to show that data has been changed
                 Toast.makeText(EditGalaxy.this, "Colony data changed to " + MainActivity.milkyWay.galaxyColonies, Toast.LENGTH_LONG).show();
+                //update the main activities text views to match new data
+                MainActivity.updateTextViews();
             }
         });
         popButton.setOnClickListener(new View.OnClickListener() {
@@ -48,6 +50,10 @@ public class EditGalaxy extends ActionBarActivity {
                 //set the static object 'milkyWay's colony count, in the main activity, to the
                 //user entered value in the edit galaxy activity
                 MainActivity.milkyWay.galaxyLifeforms = Double.parseDouble(popEdit.getText().toString());
+                //toast used to show that data has been changed
+                Toast.makeText(EditGalaxy.this, "Lifeforms data changed to " + MainActivity.milkyWay.galaxyLifeforms, Toast.LENGTH_LONG).show();
+                //update the main activities text views to match new data
+                MainActivity.updateTextViews();
 
             }
         });
@@ -57,6 +63,10 @@ public class EditGalaxy extends ActionBarActivity {
                 //set the static object 'milkyWay's colony count, in the main activity, to the
                 //user entered value in the edit galaxy activity
                 MainActivity.milkyWay.galaxyFleets = Integer.parseInt(fleetEdit.getText().toString());
+                //toast used to show that data has been changed
+                Toast.makeText(EditGalaxy.this, "Fleet data changed to " + MainActivity.milkyWay.galaxyFleets, Toast.LENGTH_LONG).show();
+                //update the main activities text views to match new data
+                MainActivity.updateTextViews();
             }
         });
         shipsButton.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +75,10 @@ public class EditGalaxy extends ActionBarActivity {
                 //set the static object 'milkyWay's colony count, in the main activity, to the
                 //user entered value in the edit galaxy activity
                 MainActivity.milkyWay.galaxyStarships = Integer.parseInt(shipsEdit.getText().toString());
+                //toast used to show that data has been changed
+                Toast.makeText(EditGalaxy.this, "Ships data changed to " + MainActivity.milkyWay.galaxyStarships, Toast.LENGTH_LONG).show();
+                //update the main activities text views to match new data
+                MainActivity.updateTextViews();
             }
         });
 

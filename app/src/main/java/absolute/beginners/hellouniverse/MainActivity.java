@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity {
     // create milkyWay Galaxy object
     static Galaxy milkyWay;
-    TextView nameData,solarData,habitData, colonyData, popData, fleetData, shipsData;
+    static TextView nameData,solarData,habitData, colonyData, popData, fleetData, shipsData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +67,16 @@ public class MainActivity extends ActionBarActivity {
         return true;
     }
 
+    // update text after new text is entered in EditGalaxy activity
+    static public void updateTextViews() {
+        nameData.setText(milkyWay.galaxyName);
+        solarData.setText( String.valueOf(milkyWay.galaxySolarSystems));
+        habitData.setText(String.valueOf(milkyWay.galaxyPlanets));
+        colonyData.setText(String.valueOf(milkyWay.galaxyColonies));
+        popData.setText(String.valueOf(milkyWay.galaxyLifeforms));
+        fleetData.setText(String.valueOf(milkyWay.galaxyFleets));
+        shipsData.setText(String.valueOf(milkyWay.galaxyStarships));
+    }// end updateTextViews()
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
