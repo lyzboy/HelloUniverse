@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hello Universe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Galaxy Information Screen</string>
+    <string name="galaxy_name">Galaxy Name:</string>
+    <string name="galaxy_solar">Galaxy Solar System:</string>
+    <string name="galaxy_habit">Galaxy Habitable Planets:</string>
+    <string name="galaxy_colony">Galaxy Colonies:</string>
+    <string name="galaxy_pop">Galaxy Populations:</string>
+    <string name="galaxy_fleet">Galaxy Starship Fleets:</string>
+    <string name="galaxy_ships">Galaxy Active Starships:</string>
+    <string name="edit_galaxy">Edit Galaxy Info</string>
+    <string name="name_data">0</string>
+    <string name="solar_data">0:</string>
+    <string name="habit_data">0</string>
+    <string name="colony_data">0</string>
+    <string name="pop_data">0</string>
+    <string name="fleet_data">0</string>
+    <string name="ships_data">0</string>
+    <string name="hint_colony">Enter Number of Colonies</string>
+    <string name="ok_button">OK</string>
+    <string name="hint_pop">Enter Population of Galaxy</string>
+    <string name="hint_fleet">Enter Number of Fleets</string>
+    <string name="hint_ships">Enter Number of Starships</string>
+</resources>

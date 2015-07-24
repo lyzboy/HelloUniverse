@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/galaxyinfoscreen">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:layout_margin="12dip"
+        android:background="#00000000">
+
+    <TextView android:text="@string/hello_world" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView android:text="@string/galaxy_name" android:textColor="#FFFFFF"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <TextView android:text="@string/galaxy_solar" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView android:text="@string/galaxy_habit" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView android:text="@string/galaxy_colony" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView android:text="@string/galaxy_pop" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView android:text="@string/galaxy_fleet" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView android:text="@string/galaxy_ships" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:layout_margin="33dip"
+        android:background="#00000000">
+
+        <TextView android:text="@string/name_data" android:textColor="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"/>
+        <TextView android:text="@string/solar_data" android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/solar"/>
+        <TextView android:text="@string/habit_data" android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/habit"/>
+        <TextView android:text="@string/colony_data" android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/colony"/>
+        <TextView android:text="@string/pop_data" android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pop"/>
+        <TextView android:text="@string/fleet_data" android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fleet"/>
+        <TextView android:text="@string/ships_data" android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ships"/>
+    </LinearLayout>
+
+</LinearLayout>
