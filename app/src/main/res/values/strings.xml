@@ -22,4 +22,10 @@
     <string name="hint_pop">Enter Population of Galaxy</string>
     <string name="hint_fleet">Enter Number of Fleets</string>
     <string name="hint_ships">Enter Number of Starships</string>
+
+    //Strings for image buttons in sliding pane
+    <string name="slidingPane_button1">Galaxy 1</string>
+    <string name="slidingPane_button2">Galaxy 2</string>
+    <string name="slidingPane_button3">Galaxy 3</string>
+
 </resources>

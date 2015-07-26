@@ -1,10 +1,15 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+<LinearLayout  android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context=".MainActivity"
     android:orientation="horizontal"
     android:background="@drawable/galaxyinfoscreen">
 
-    <anddroid.support.v4.widget.SlidingPaneLayout>
+
 
     <LinearLayout android:layout_width="wrap_content"
         android:layout_height="wrap_content" tools:context=".MainActivity"
@@ -38,14 +43,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    </LinearLayout>
+        </LinearLayout>
 
-    <LinearLayout android:layout_width="wrap_content"
-        android:layout_height="wrap_content" tools:context=".MainActivity"
-        android:orientation="vertical"
-        android:layout_margin="33dip"
-        android:background="#00000000">
-
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:context=".MainActivity"
+            android:orientation="vertical"
+            android:layout_margin="12dip"
+            android:background="#00000000">
         <TextView android:text="@string/name_data" android:textColor="#FFFFFF"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -76,20 +80,36 @@
             android:id="@+id/ships"/>
     </LinearLayout>
 
-        <LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:context=".MainActivity"
+            android:orientation="vertical"
+            android:layout_margin="33dip"
+            android:background="#00000000">
 
-            <ImageButton>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:contentDescription="@+id/slidingPane_button1"
+                />
 
-            </ImageButton>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:contentDescription="@+id/slidingPane_button1"
+                />
 
-            <ImageButton>
-
-            </ImageButton>
-
-            <ImageButton>
-
-            </ImageButton>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:contentDescription="@+id/slidingPane_button1"
+                />
 
         </LinearLayout>
-    </anddroid.support.v4.widget.SlidingPaneLayout>
 </LinearLayout>
+
+
+</android.support.v4.widget.SlidingPaneLayout>
