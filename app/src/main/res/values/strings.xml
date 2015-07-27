@@ -24,8 +24,8 @@
     <string name="hint_ships">Enter Number of Starships</string>
 
     //Strings for image buttons in sliding pane
-    <string name="slidingPane_button1">Galaxy 1</string>
-    <string name="slidingPane_button2">Galaxy 2</string>
-    <string name="slidingPane_button3">Galaxy 3</string>
+    <string name="galaxyOne">Milky Way Galaxy</string>
+    <string name="galaxyTwo">Andromeda Galaxy</string>
+    <string name="galaxyThree">Spiral Galaxy M106</string>
 
 </resources>
